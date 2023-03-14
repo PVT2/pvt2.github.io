@@ -1,0 +1,78 @@
+/* Template created by tcse-cms.com | Author: Vitaly V. Chuyakov | URL: http://tcse-cms.com */
+   table {
+    width: 100%; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+   }
+   td, th {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid #000; /* Параметры рамки */
+   }
+   th {
+    background: #A0D468; /* Цвет фона */
+    color: #333;  /* Цвет текста */
+   }
+   tbody tr:hover {
+    background: #7b8592; /* Цвет фона при наведении */
+    color: #fff; /* Цвет текста при наведении */
+   }
+
+/* Выравнивание блоков по 3 в ряд */
+#dle-content .short-news:nth-of-type(3n+1) { clear: both; }
+.wp-caption {max-width: 100%;}
+.full-content img {
+	max-width: 100%;
+	display: inherit;
+}
+
+.header-logo {
+	padding: 10px 0;
+}
+
+/* Подвал */
+.bg-grey {
+	background-color: #2d3349;
+	color: #80909A;
+}
+.bg-grey a {
+	color: #fff;
+	text-decoration: none;
+}
+.bg-grey a:hover {
+	color: #eaeaeb;
+	text-decoration: underline;
+}
+.ratebox2 {
+  float: right;
+}
+
+.ratebox3 {
+  float: right;
+}
+
+.ratebox ul, .ratebox ul li {
+  float: left;
+  list-style-type: none;
+}
+
+.ratebox2 ul, .ratebox2 ul li {
+  float: left;
+  list-style-type: none;
+}
+
+.ratebox3 ul, .ratebox3 ul li {
+  float: left;
+  list-style-type: none;
+}
+/* Правки для разной ширины экрана */
+@media (max-width:  640px) {
+	.header-logo {
+		text-align: center;
+	}
+	.full-content img {
+		max-width: 100%;
+		display: block;
+	}
+}
+
+@media (min-width: 1200px) {
+}
